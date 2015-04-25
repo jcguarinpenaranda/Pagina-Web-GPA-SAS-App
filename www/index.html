@@ -19,9 +19,9 @@
     <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript">
         document.addEventListener("deviceready", function () {
-            var ref = window.open('https://www.gpasas.com');
+            var ref = window.open('https://gpasas.com/#/productosyservicios/');
             ref.addEventListener('loaderror', function(event) { 
-                alert('error: ' + event.message); 
+                alert('Ha ocurrido un error. Revisa tu conexión a internet.'); 
             });
         });
     </script>
